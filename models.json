@@ -448,19 +448,14 @@
     "sha256": "23b4408c9a621bc563ed9f998a7929776ba50f5102ed2c2436b2f917404b05e7"
   },
   {
-    "prompt_template": "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
+    "name": "Mellum-4b-base",
     "license_name": "Apache 2.0",
     "license_url": "https://choosealicense.com/licenses/apache-2.0/",
-    "name": "Mellum-4b-base",
-    "provider_url": "https://www.modelscope.cn/models/JetBrains/Mellum-4b-base-gguf",
-    "partition_urls": [
-      {
-        "urls": [
-          "https://www.modelscope.cn/models/JetBrains/Mellum-4b-base-gguf/resolve/master/mellum-4b-base.Q8_0.gguf"
-        ],
-        "sha256": "f8a8ae8f8b02cd992716e8849fe0424184bc7a26c2b829131ed558567307c5b2"
-      }
+    "prompt_template": "<fim_suffix>{suffix}<fim_prefix>{prefix}<fim_middle>",
+    "provider_url": "https://huggingface.co/JetBrains/Mellum-4b-base-gguf",
+    "urls": [
+      "https://huggingface.co/JetBrains/Mellum-4b-base-gguf/resolve/main/mellum-4b-base.Q8_0.gguf"
     ],
-    "sha256": ""
+    "sha256": "f8a8ae8f8b02cd992716e8849fe0424184bc7a26c2b829131ed558567307c5b2"
   }
 ]
